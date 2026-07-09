@@ -1,0 +1,8 @@
+# 开发环境配置 - 覆盖生产配置
+# 如果本地 MySQL 和 Redis 连接参数和默认一致则无需改动
+# 开发环境打印更多日志
+
+logging:
+  level:
+    com.demo.auth: DEBUG
+    org.springframework.security: INFO
